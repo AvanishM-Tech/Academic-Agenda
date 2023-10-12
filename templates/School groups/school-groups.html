@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Groups Chat</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Custom styles */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        header {
+            background-color: #347FC4;
+            height: 50px;
+        }
+
+        header nav ul {
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+
+        }
+
+        header nav ul li {
+            border: 2px solid #ffffff;
+            border-radius: 4px;
+            padding: 5px;
+            background-color: #347FC4;
+            list-style: none;
+            margin-top: 0.5rem;
+        }
+
+        header nav ul li a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="homepage.html"><b>Academic Agenda</b></a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html" class="register-button"><b>Register</b></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="chat-container">
+        <div class="chat-sidebar">
+            <div class="profile">
+                <div class="profile-image"></div>
+                <h3>John Doe</h3>
+                <p>Student</p>
+                <button class="view-profile-btn">View Profile</button>
+            </div>
+            <div class="profile">
+                <div class="profile-image"></div>
+                <h3>Jane Smith</h3>
+                <p>Teacher</p>
+                <button class="view-profile-btn">View Profile</button>
+            </div>
+            <!-- Add more user profiles here -->
+        </div>
+        <div class="chat-messages">
+            <div class="message">John Doe: Hi there!</div>
+            <div class="message">Jane Smith: Hello! How can I assist you?</div>
+            <!-- Add more chat messages here -->
+        </div>
+        <div class="chat-input">
+            <input type="text" id="message-input" placeholder="Type your message...">
+            <button id="send-button">Send</button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div>
+                <h3><b><a href="../About/about.html">About Us</a></b></h3>
+                <p>Allowing students to collaborate.</p>
+            </div>
+            <div>
+                <h3><b><a href="../Contacts/contact.html">Contact Us</a></b></h3>
+                <p>support@academicagenda.com</p>
+            </div>
+            <div>
+                <h3><b>Quick Links</b></h3>
+                <ul>
+                    <li><a href="../School groups/school-groups.html">School Groups</a></li>
+                    <li><a href="../Topics/topics.html">Topics</a></li>
+                    <li><a href="../faq/faq.html">FAQ</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3><b>Social Media</b></h3>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

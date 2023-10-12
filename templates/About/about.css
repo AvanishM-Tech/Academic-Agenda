@@ -1,0 +1,51 @@
+/* Footer Styles */
+
+footer {
+    background-color: #347FC4;
+    color: white;
+    padding: 20px;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-column {
+    flex-basis: 23%;
+    margin-bottom: 20px;
+}
+
+.footer-heading {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 5px;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #084b75;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer-link:hover {
+    color: #0505c8;
+    text-decoration: underline;
+}
+
+/* Adjusting the margin for the last column on larger screens */
+@media (min-width: 768px) {
+    .footer-column:last-child {
+        margin-left: 8%;
+    }
+}

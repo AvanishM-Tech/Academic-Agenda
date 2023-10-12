@@ -1,0 +1,96 @@
+/* Navigation Bar */
+nav {
+  background-color: #347FC4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  height: 60px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.register-button {
+  background-color: white;
+  color: #347FC4;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+
+/* Footer */
+footer {
+  background-color: #347FC4;
+  color: white;
+  padding: 20px;
+}
+
+footer div {
+  margin-bottom: 20px;
+}
+
+footer h3 {
+  margin-bottom: 10px;
+}
+
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer li {
+  margin-bottom: 5px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+  footer .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  footer div {
+    margin-bottom: 0;
+    width: 23%;
+  }
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.text {
+  font-size: 24px;
+  color: #347FC4;
+  font-weight: bold;
+}
+
+.sticky {
+  position: sticky;
+}

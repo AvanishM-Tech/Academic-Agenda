@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Added Logo-->
+  <link rel="icon" type="image/png" href="images/logo.png">
+  <!--Adding animate.style-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!--added tailwind css-->
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <!--Adding Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+  <title>FAQ</title>
+  <link rel="stylesheet" href="../faq/faq.css">
+</head>
+
+<body>
+  <!-- Navigation Bar-->
+
+  <!-- FAQ Section-->
+  <div>
+    <h1 style="color:#347FC4; font-size: 45px;">Frequently Asked Questions</h1>
+    <h2>What is Academic Agenda and what does it do?</h2>
+    <p>Academic Agenda is a website that helps students collaborate and chat with each other. It also allows students to
+      create groups for specific topics or projects.</p>
+    <h2>How do I create an account on Academic Agenda?</h2>
+    <p>To create an account on Academic Agenda, click on the "Sign Up" button on the homepage and follow the
+      instructions.</p>
+    <h2>How do I create a group on Academic Agenda?</h2>
+    <p>To create a group on Academic Agenda, log in to your account and click on the "Create Group" button. Follow the
+      instructions to set up your group.</p>
+  </div>
+
+  <!-- Allow the user to post a question if they can't find one.-->
+  <h2>Can't Find What Your Looking For? Post a question <a href="#question-posting">here</a></h2>
+
+  <div id="question-posting">
+    <h1>Post a Question</h1>
+    <form action="submit-question-here" method="post">
+      <label for="title">Title:</label><br>
+      <input type="text" id="title" name="title"><br>
+      <label for="question">Question:</label><br>
+      <button type="button" onclick="showLinkPopup()">Embed Link</button><br>
+      <textarea id="question" name="question"></textarea><br><br>
+      <input type="submit" value="Post"
+        style="background-color: #347FC4; color: white; font-weight: bold; border-radius: 12px;">
+    </form>
+  </div>
+
+  <div id="link-popup" style="display: none;">
+    <label for="link-url">Enter URL:</label><br>
+    <input type="url" id="link-url"><br><br>
+    <button type="button" onclick="embedLink()">Embed</button>
+  </div>
+
+
+</body>
+
+</html>

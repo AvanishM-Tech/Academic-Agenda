@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Contact Us</title>
+
+</head>
+
+<body>
+  <style>
+    body {
+      /*background-image: url('background-img.jpg'); Will Update when ramsey provides with background image */
+      background-size: cover;
+    }
+
+    .container {
+      display: flex;
+    }
+
+    .contact-info {
+      margin-right: 50px;
+    }
+
+    .contact-form {
+      margin-top: 50px;
+    }
+  </style>
+  <h1>Contact Us</h1>
+  <div class="container">
+    <div class="contact-info">
+      <h2>Contact Information</h2>
+      <p>Email: support@academicagenda.com</p>
+      <!-- Contact Info -->
+    </div>
+    <div class="contact-form">
+      <form action="submit-form-here" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email" required><br>
+        <label for="subject">Subject:</label><br>
+        <input type="text" id="subject" name="subject" required><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message"></textarea><br><br>
+        <!-- reCAPTCHA (I will add it later on as we progress with the project) -->
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>

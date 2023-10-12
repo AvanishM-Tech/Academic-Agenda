@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="images/logo.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link href="https://unpkg.com/tailwindcss@^2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../HomePage/homepage.css">
+  <title>HomePage</title>
+  <style>
+    /* Custom styles */
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+
+    nav {
+      background-color: #347FC4;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: space-between;
+      list-style-type: none;
+      padding: 1rem;
+    }
+
+    nav ul li a {
+      color: #fff;
+
+      padding: 0.5rem;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 70vh;
+      text-align: center;
+    }
+
+    .container h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    .container p {
+      font-size: 1.5rem;
+    }
+
+    footer {
+      background-color: #347FC4;
+      color: #fff;
+      padding: 2rem;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    footer .container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 2rem;
+    }
+
+    footer a {
+      color: #0d4acd;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li><a href="../HomePage/homepage.html"><b>Academic Agenda</b></a></li>
+      <li><a href="../faq/faq.html">FAQ</a></li>
+      <li><a href="../Contacts/contact.html">Contact</a></li>
+      <li><a href="../Login/login.html">Login</a></li>
+      <li><a href="../Registration Page/register.html" class="register-button"><b>Register</b></a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <h1>Welcome to Academic Agenda</h1>
+    <p>Allowing students to collaborate.</p>
+  </div>
+
+  <footer>
+    <div class="container">
+      <div>
+        <h3><b><a href="../About/about.html">About Us</a></b></h3>
+
+      </div>
+      <div>
+        <h3><b><a href="../Contacts/contact.html">Contact Us</a></b></h3>
+        <p>support@academicagenda.com</p>
+      </div>
+      <div>
+        <h3><b>Quick Links</b></h3>
+        <ul>
+          <li><a href="../School groups/school-groups.html">School Groups</a></li>
+          <li><a href="../Topics/topics.html">Topics</a></li>
+          <li><a href="../faq/faq.html">FAQ</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3><b>Social Media</b></h3>
+        <ul>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Instagram</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+
+  </script>
+</body>
+
+</html>
