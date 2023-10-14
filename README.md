@@ -63,6 +63,11 @@ main.py
 requirements.txt
 
 ```
+# Contributors
+<a href="https://github.com/KudaZafex"><img src="https://avatars.githubusercontent.com/u/92883566?v=4" alt="PYTEZ" width="50" height="50" style="border-radius: 50%;"></a>
+<a href="https://github.com/CYCNO"><img src="https://avatars.githubusercontent.com/u/90704569?s=400&u=6354cbb1c0554938531621fd26e47916b0b6b63e&v=4" alt="CYCNO" width="50" height="50" style="border-radius: 50%;"></a>
+<a href="https://github.com/AvanishM-Tech"><img src="https://avatars.githubusercontent.com/u/130116097?v=4" alt="Contributor Name" width="50" height="50" style="border-radius: 50%;"></a>
+<a href="https://github.com/Ramseyxlil"><img src="https://avatars.githubusercontent.com/u/108173781?v=4" alt="Contributor Name" width="50" height="50" style="border-radius: 50%;"></a>
 
 # Programming Languages 
 - Python (Flask)
